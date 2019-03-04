@@ -9,7 +9,7 @@ public class BasicOperationsImpl implements BasicOperations {
 
     @Override
     public long sumar(long sumando1, long sumando2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return sumando1 + sumando2;
     }
 
     @Override
