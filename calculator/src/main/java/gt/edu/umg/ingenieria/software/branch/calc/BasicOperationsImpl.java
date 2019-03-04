@@ -4,7 +4,7 @@ public class BasicOperationsImpl implements BasicOperations {
 
     @Override
     public int sumar(int sumando1, int sumando2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return sumando1 + sumando2;
     }
 
     @Override
